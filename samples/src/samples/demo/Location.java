@@ -2,7 +2,6 @@ package samples.demo;
 
 public class Location {
 
-	private int number;
 	private String name;
 
 	public String getName() {
@@ -13,11 +12,4 @@ public class Location {
 		this.name = name;
 	}
 
-	public int getNumber() {
-		return number;
-	}
-
-	public void setNumber(int number) {
-		this.number = number;
-	}
 }
